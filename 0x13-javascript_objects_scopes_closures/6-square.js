@@ -11,4 +11,3 @@ class Square extends supSquare {
   }
 }
 module.exports = Square;
-
