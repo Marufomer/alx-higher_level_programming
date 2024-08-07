@@ -2,7 +2,7 @@
 // Read from file
 
 const filesys = require('fs');
-filesys.readFile(process.argv[2], 'utf-8', function (err, data) {
+filesys.readFile(process.argv[1], 'utf-8', function (err, data) {
   if (err) {
     console.log(err);
     return;
